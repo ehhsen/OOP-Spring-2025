@@ -1,4 +1,15 @@
 // Function with default arguments\
+/* 2 Lab Task 2: Function with Default Arguments
+Objective: Implement a program to demonstrate the use of default arguments
+in functions.
+Task:
+• Create a C++ program with a function printStudentDetails that takes
+the following parameters:
+– name (string, no default value)
+– rollNo (int, default value = 0)
+– grade (char, default value = ’N’)
+– marks (double, default value = 0.0)
+*/
 #include<iostream>
 #include<iomanip>
 using namespace std;
