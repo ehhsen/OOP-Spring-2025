@@ -32,8 +32,8 @@ int calculate(int num1, int num2, int num3)
 
 float calculate(float n1, float n2)
 {
-	float a = (n1  + n2)/2;
-	return a;
+	return (n1  + n2)/2.0f;
+
 }
 
 int main()
