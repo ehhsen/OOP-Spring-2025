@@ -1,5 +1,6 @@
-// Function with default arguments\
-/* 2 Lab Task 2: Function with Default Arguments
+
+/*
+2 Lab Task 2: Function with Default Arguments
 Objective: Implement a program to demonstrate the use of default arguments
 in functions.
 Task:
@@ -10,17 +11,19 @@ the following parameters:
 – grade (char, default value = ’N’)
 – marks (double, default value = 0.0)
 */
+
 #include<iostream>
 #include<iomanip>
+#include<string>
 using namespace std;
 
-//void printStudentDetails(char[], int = 0, char = 'N', double = 0.0)
-void printStudentDetails(char name, int rolNo = 0, char grade = 'N', double marks = 0.0)
+//void printStudentDetails(string, int = 0, char = 'N', double = 0.0)
+void printStudentDetails(string name, int rolNo = 0, char grade = 'N', double marks = 0.0)
 {
-	cout<<"Name: "<<name;
-	cout<<"\nRoll Number: "<<rolNo;
-	cout<<"\nGrade: "<<grade;
-	cout<<"\nMarks: "<<marks;
+	cout<<"\nName: "<<name;
+	cout<<"\tRoll Number: "<<rolNo;
+	cout<<"\tGrade: "<<grade;
+	cout<<"\tMarks: "<<marks<<endl;
 }
 int main()
 {
@@ -34,3 +37,4 @@ int main()
 	return 0;
 	
 }
+
