@@ -1,4 +1,17 @@
 // Function with default arguments
+/* 3 Lab Task 3: Function Template
+Objective: Implement a program to demonstrate the use of function templates
+for generic programming.
+Task:
+• Create a C++ program with a function template swapValues that takes
+two arguments of any data type and swaps their values.
+• In the main function, call the swapValues function with the following sets
+of arguments:
+– Two integers (e.g., 10 and 20).
+– Two floating-point numbers (e.g., 3.14 and 2.71).
+– Two characters (e.g., ’A’ and ’Z’).
+• Display the values before and after swapping for each function call.
+*/
 
 #include<iostream>
 #include<iomanip>
