@@ -1,0 +1,5 @@
+Name		Discipline	Age
+----		----------	---
+Ahsan		CS		19
+Ahmed		EE		18
+Wasiq		SE		20
