@@ -1,17 +1,17 @@
-// recursion
+// calculate factorial of number 4! = 4*3*2*1 for n>0
 #include<iostream>
-#include<iomanip>
-using namespace std;
-int fact(int num)
-{
-	if(num == 0)
+using namespace std; 
+int factorial(int num){
+	// base case  and corner case 
+	if(num == 0){
 		return 1;
+	}
+	if(num == 1){
+		return 1;
+	}
 	else
-		return num * fact(num-1);
+		return num * factorial((num-1));
 }
-int main()
-{
-	// recursive function to find factorial
-	cout<<"Factorial: "<<fact(8);
-	
+int main(void){
+	cout<<"factorial "<<factorial(8);
 }
